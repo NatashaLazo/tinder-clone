@@ -1,0 +1,30 @@
+.ChatPrevisualizacion {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  height: 70px;
+  border-bottom: 1px solid #fafafa;
+}
+
+.ChatPrevisualizacion__detalles {
+  flex: 1;
+}
+
+.ChatPrevisualizacion__imagen{
+    margin-right: 20px;
+
+}
+
+.ChatPrevisualizacion__detalles > p {
+  color: grey;
+}
+
+.ChatPrevisualizacion__time {
+  color: lightgray;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
